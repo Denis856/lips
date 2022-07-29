@@ -43,9 +43,6 @@
                <a href="https://wa.me/+79393715878" target="_blank">
                   <img class="soc" src="img/whats.png" alt="some">
                </a>
-               <a href="https://t.me/+79393715878" target="_blank">
-                  <img class="soc" src="img/telegramm.png" alt="some">
-               </a>
             </div>
             <div class="menu">
                <a href="#" class="#">
