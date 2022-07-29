@@ -8,6 +8,7 @@
    <link rel="stylesheet" href="css/style.css">
    <link rel="stylesheet" href="css/media.css">
    <link rel="stylesheet" href="css/swiper-bundle.min.css">
+   <link rel="shortcut icon" href="/img/logo.png" type="image/png">
 </head>
 <body>
    <header class="header">
