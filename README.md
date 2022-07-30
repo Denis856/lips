@@ -219,7 +219,5 @@
    <script src="js/1.js"></script>
    <script src="js/swiper-bundle.min.js"></script>
    <script src="js/main.js"></script>
-	<script src="https://code.jquery.com/jquery-1.11.3.min.js"></script>
-	<script src="script.js"></script>
 </body>
 </html>
