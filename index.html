@@ -7,10 +7,16 @@
    <title>Lips</title>
    <link rel="stylesheet" href="css/style.css">
    <link rel="stylesheet" href="css/media.css">
+   <link rel="stylesheet" href="css/2.css">
    <link rel="stylesheet" href="css/swiper-bundle.min.css">
    <link rel="shortcut icon" href="/img/logo.png" type="image/png">
 </head>
 <body>
+   <ul id="slide-out" class="sidenav">
+      <li class="nav_link"><a href="#warning">МЕРЫ ПРЕДОСТОРОЖНОСТИ</a></li>
+      <li class="nav_link"><a href="#about">О НАС</a></li>
+      <li class="nav_link"><a href="#contact">ЗАПИСАТЬСЯ</a></li>
+   </ul>
    <header class="header">
       <div class="container">
          <div class="head center3">
@@ -20,17 +26,17 @@
             <nav class="nav">
                <ul class="ul center2">
                   <li class="li">
-                     <a href="#" class="head_link">
+                     <a href="#warning" class="head_link">
                         МЕРЫ ПРЕДОСТОРОЖНОСТИ
                      </a>
                   </li>
                   <li class="li">
-                     <a href="#" class="head_link">
+                     <a href="#about" class="head_link">
                         О НАС
                      </a>
                   </li>
                   <li class="li">
-                     <a href="#" class="head_link">
+                     <a href="#contact" class="head_link">
                         ЗАПИСАТЬСЯ
                      </a>
                   </li>
@@ -45,7 +51,7 @@
                </a>
             </div>
             <div class="menu">
-               <a href="#" class="#">
+               <a data-target="slide-out" href="#" class="sidenav-trigger">
                   <img class="menu_img" src="img/menu.png" alt="some">
                </a>
             </div>
@@ -67,7 +73,7 @@
       </div>
       </div>
    </div>
-   <div class="page2">
+   <div id="warning" class="page2">
       <div class="container">
          <div class="page2_title title center1">
             МЕРЫ ПРЕДОСТОРОЖНОСТИ 
@@ -103,7 +109,7 @@
          </div>
       </div>
    </div>
-   <div class="page3">
+   <div id="about" class="page3">
       <div class="container">
          <div class="page3_title center1">
             <p class="title center">
@@ -183,7 +189,7 @@
          </div>
       </div>
    </div>
-   <footer class="footer">
+   <footer id="contact" class="footer">
       <div class="container">
          <div class="footer_title center1">
             <p class="title">
@@ -194,16 +200,18 @@
             <div class="footer_img">
                <img class="footer_img1" src="img/footer.png" alt="some">
             </div>
-                  <form action="main.php" target="_blank" class="form" method="POST">
+            <form action="main.php" target="_blank" class="form" method="POST">
                <input type="text" name="fio" class="input for" placeholder="Ваше имя..." required>
                <input type="text" name="email" class="input for" placeholder="Ваш номер..." required>
-               
+               <div class="foot_btn">
                   <input class="btn for center" value="Отправить" type="submit"/>
-               
+               </div>
             </form>
          </div>
       </div>
    </footer>
+   <script src="js/materialize.min.js"></script>
+   <script src="js/1.js"></script>
    <script src="js/swiper-bundle.min.js"></script>
    <script src="js/main.js"></script>
 </body>
