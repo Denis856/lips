@@ -10,6 +10,8 @@
    <link rel="stylesheet" href="css/2.css">
    <link rel="stylesheet" href="css/swiper-bundle.min.css">
    <link rel="shortcut icon" href="/img/logo.png" type="image/png">
+	<script src="https://code.jquery.com/jquery-3.4.1.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
+<script>
 </head>
 <body>
    <ul id="slide-out" class="sidenav">
