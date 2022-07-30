@@ -15,9 +15,9 @@ echo $name;
 echo "<br>";
 echo $phone;
 
-mail("denis.malykhin.89@bk.ru", "Заявка с сайта", "ФИО:".$fio.". E-mail: ".$email ,"From: denis856.github.io/lips \r\n");
+mail("denis.malykhin.89@bk.ru", "Заявка с сайта", "ФИО:".$name.". E-mail: ".$phone ,"From: https://denis856.github.io/lips/ \r\n");
 
-if (mail("denis.malykhin.89@bk.ru", "Заказ с сайта", "ФИО:".$fio.". E-mail: ".$email ,"From: denis856.github.io/lips \r\n"))
+if (mail("denis.malykhin.89@bk.ru", "Заказ с сайта", "ФИО:".$name.". E-mail: ".$phone ,"From: https://denis856.github.io/lips/ \r\n"))
  {
     echo "сообщение успешно отправлено";
 } else {
