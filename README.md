@@ -201,6 +201,13 @@
                <img class="footer_img1" src="img/footer.png" alt="some">
             </div>
             <form action="mailto:malykhin1996@internet.ru" target="_blank" class="form" method="POST">
+               
+               <!-- Hidden Required Fields -->
+		<input type="hidden" name="project_name" value="malykhin1996@internet.ru">
+		<input type="hidden" name="admin_email" value="denis.malykhin.89@bk.ru">
+		<input type="hidden" name="form_subject" value="Form Subject">
+		<!-- END Hidden Required Fields -->
+               
                <input type="text" name="user_name" class="input for" placeholder="Ваше имя..." required>
                <input type="text" name="user_phone" class="input for" placeholder="Ваш номер..." required>
                <input class="btn for center" name="sab" value="Отправить" type="submit"/>
