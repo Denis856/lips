@@ -205,7 +205,7 @@
             <form action="mailto:malykhin1996@internet.ru" target="_blank" class="form" method="POST">
                
                <!-- Hidden Required Fields -->
-		<input type="hidden" name="project_name" value="malykhin1996@internet.ru">
+		<input type="hidden" name="project_name" value="denis856.github.io/lips">
 		<input type="hidden" name="admin_email" value="denis.malykhin.89@bk.ru">
 		<input type="hidden" name="form_subject" value="footer form">
 		<!-- END Hidden Required Fields -->
@@ -221,6 +221,6 @@
    <script src="js/1.js"></script>
    <script src="js/swiper-bundle.min.js"></script>
    <script src="js/main.js"></script>
-	<script src="script.js"></script>
+   <script src="script.js"></script>
 </body>
 </html>
