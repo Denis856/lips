@@ -203,7 +203,7 @@
             <form action="mailto:malykhin1996@internet.ru" target="_blank" class="form" method="POST">
                
                <!-- Hidden Required Fields -->
-		<input type="hidden" name="project_name" value="malykhin1996@internet.ru">
+		<input type="hidden" name="project_name" value="denis856.github.io/lips/">
 		<input type="hidden" name="admin_email" value="denis.malykhin.89@bk.ru">
 		<input type="hidden" name="form_subject" value="Form Subject">
 		<!-- END Hidden Required Fields -->
