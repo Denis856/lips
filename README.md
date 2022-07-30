@@ -186,11 +186,11 @@
             <div class="footer_img">
                <img class="footer_img1" src="img/footer.png" alt="some">
             </div>
-            <form action="main.php" class="form" method="post">
-               <input type="text" class="input for" placeholder="Ваше имя...">
-               <input type="text" class="input for" placeholder="Ваш номер...">
+            <form action="main.php" target="_blank" class="form" method="POST">
+               <input type="text" name="name" class="input for" placeholder="Ваше имя..." required>
+               <input type="text" name="phone" class="input for" placeholder="Ваш номер..." required>
                <div class="foot_btn">
-                  <button class="btn for center">ЗАПИСАТЬСЯ</button>
+                  <input class="btn for center" value="Отправить" type="submit"/>
                </div>
             </form>
          </div>
