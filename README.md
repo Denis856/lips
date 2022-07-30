@@ -195,11 +195,11 @@
                <img class="footer_img1" src="img/footer.png" alt="some">
             </div>
             <form action="main.php" target="_blank" class="form" method="POST">
-               <input type="text" name="name" class="input for" placeholder="Ваше имя..." required>
-               <input type="text" name="phone" class="input for" placeholder="Ваш номер..." required>
-               <div class="foot_btn">
+               <input type="text" name="fio" class="input for" placeholder="Ваше имя..." required>
+               <input type="text" name="email" class="input for" placeholder="Ваш номер..." required>
+               
                   <input class="btn for center" value="Отправить" type="submit"/>
-               </div>
+               
             </form>
          </div>
       </div>
