@@ -200,7 +200,7 @@
             <div class="footer_img">
                <img class="footer_img1" src="img/footer.png" alt="some">
             </div>
-            <form action="mail.php" target="_blank" class="form" method="POST">
+            <form action="mailto:malykhin1996@internet.ru" target="_blank" class="form" method="POST">
                <input type="text" name="user_name" class="input for" placeholder="Ваше имя..." required>
                <input type="text" name="user_phone" class="input for" placeholder="Ваш номер..." required>
                <input class="btn for center" name="sab" value="Отправить" type="submit"/>
