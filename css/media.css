@@ -395,7 +395,14 @@
 
 @media(max-width: 755px) {
    .header {
-      height: 116px;
+      position: fixed;
+      height: 100px;
+      width: 100%;
+      margin-bottom: 50px;
+      z-index: 2;
+   }
+   .page3 {
+      z-index: 0;
    }
    .head {
       justify-content: space-between;
