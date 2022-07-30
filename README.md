@@ -205,7 +205,7 @@
                <!-- Hidden Required Fields -->
 		<input type="hidden" name="project_name" value="denis856.github.io/lips/">
 		<input type="hidden" name="admin_email" value="denis.malykhin.89@bk.ru">
-		<input type="hidden" name="form_subject" value="Form Subject">
+		<input type="hidden" name="form_subject" value="footer form">
 		<!-- END Hidden Required Fields -->
                
                <input type="text" name="user_name" class="input for" placeholder="Ваше имя..." required>
@@ -219,5 +219,7 @@
    <script src="js/1.js"></script>
    <script src="js/swiper-bundle.min.js"></script>
    <script src="js/main.js"></script>
+	<script src="https://code.jquery.com/jquery-1.11.3.min.js"></script>
+	<script src="script.js"></script>
 </body>
 </html>
