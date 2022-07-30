@@ -10,8 +10,6 @@
    <link rel="stylesheet" href="css/2.css">
    <link rel="stylesheet" href="css/swiper-bundle.min.css">
    <link rel="shortcut icon" href="/img/logo.png" type="image/png">
-	<script src="https://code.jquery.com/jquery-3.4.1.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
-<script>
 </head>
 <body>
    <ul id="slide-out" class="sidenav">
@@ -121,7 +119,7 @@
          <div class="page3_text center1">
             <p class="center">
                Наш основной принцип сохранить естественность ваших губ, но не всегда 
-               есть возможность сделать губы по вашим ожиданиям ,ведь всё зависит от исходной формы. 
+               есть возможность сделать губы по вашим ожиданиям и всё зависит от исходной формы. 
             </p>
          </div>
          <div class="swiper mySwiper">
@@ -216,6 +214,5 @@
    <script src="js/1.js"></script>
    <script src="js/swiper-bundle.min.js"></script>
    <script src="js/main.js"></script>
-   <script src="script.js"></script>
 </body>
 </html>
