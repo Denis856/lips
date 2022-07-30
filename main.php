@@ -10,7 +10,7 @@ $email = trim($email);
 //echo $fio;
 //echo "<br>";
 //echo $email;
-if (mail("denis.malykhin.89@bk.ru", "Заявка с сайта", "ФИО:".$fio.". E-mail: ".$email ,"From: info@webriz.ruм \r\n"))
+if (mail("denis.malykhin.89@bk.ru", "Заявка с сайта", "ФИО:".$fio.". E-mail: ".$email ,"From: malykhin1996@internet.ru \r\n"))
  {     echo "сообщение успешно отправлено";
 } else {
     echo "при отправке сообщения возникли ошибки";
