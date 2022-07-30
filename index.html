@@ -13,7 +13,7 @@
 </head>
 <body>
    <ul id="slide-out" class="sidenav">
-      <li class="nav_link"><a href="#warning">МЕРЫ ПРЕДОСТОРОЖНОСТИ</a></li>
+      <li class="nav_link"><a href="#warning">МЕРЫ <br>ПРЕДОСТОРОЖНОСТИ</a></li>
       <li class="nav_link"><a href="#about">О НАС</a></li>
       <li class="nav_link"><a href="#contact">ЗАПИСАТЬСЯ</a></li>
    </ul>
