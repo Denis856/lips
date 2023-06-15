@@ -1,0 +1,28 @@
+@font-face {
+   font-family: 'Sans med', sans-serif;
+   src: url('/font/DMSans-Medium.ttf');
+}
+@font-face {
+   font-family: 'Mulish Reg', sans-serif;
+   src: url('/font/Mulish-Regular.ttf');
+}
+@font-face {
+   font-family: 'Mulish Med', sans-serif;
+   src: url('/font/Mulish-Medium.ttf');
+}
+@font-face {
+   font-family: 'Mulish Ext Bold', sans-serif;
+   src: url('/font/Mulish-ExtraBold.ttf');
+}
+@font-face {
+   font-family: 'Mulish Bold', sans-serif;
+   src: url('/font/Mulish-Bold.ttf');
+}
+@font-face {
+   font-family: 'Rubik Reg', sans-serif;
+   src: url('/font/Rubik-Regular.ttf');
+}
+@font-face {
+   font-family: 'Rubik Med', sans-serif;
+   src: url('/font/Rubik-Medium.ttf');
+}
