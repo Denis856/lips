@@ -685,6 +685,9 @@ body {
          width: 48%;
          margin: 0 0 45px 0;
       }
+      @media(max-width: 400px) {
+         height: calc(250px + (330 - 250) * ((100vw - 280px) / (400 - 280)));
+      }
    }
    
 }

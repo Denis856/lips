@@ -854,6 +854,11 @@ body.active {
     margin: 0 0 45px 0;
   }
 }
+@media (max-width: 400px) {
+  .products__item, .products__item2 {
+    height: calc(250px + 80 * (100vw - 280px) / 120);
+  }
+}
 
 @-webkit-keyframes animate {
   0% {
